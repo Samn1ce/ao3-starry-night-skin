@@ -1,0 +1,545 @@
+#header {
+  background-image: url("https://i.postimg.cc/kXZFBM1R/Van-Gogh-Starry-Night-Google-Art-Project.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 15%;
+  background-color: #011140;
+  position: relative;
+  z-index: 10;
+}
+
+#header .logo,
+#header h1 sup {
+  display: none !important;
+}
+
+#header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15em;
+  margin: 0;
+}
+
+#header h1 a::before {
+  content: "   ✨Starry Night Archive✨ ";
+  display: block;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  font-variant: small-caps;
+  text-decoration: none;
+  text-align: center;
+  color: #ffe270;
+  text-shadow: 0 0 15px #f9d71c, 0 0 20px #f9d71c;
+}
+
+#header h1 a span {
+  display: none !important;
+}
+
+#header .heading {
+  height: 15em;
+}
+
+#header .primary {
+  background: #011140;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+#header .logo,
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header .heading a {
+  color: #ffe270;
+  text-shadow: 0px 0px 10px #f9d71c;
+}
+
+.event .userstuff {
+  background: #1c3b63;
+  border: 1px solid #ffe270;
+}
+
+#outer.wrapper {
+  background: #011140;
+  color: #d1e1ff;
+}
+
+#main a {
+  color: #7fb3ff;
+}
+
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #ffe270 !important;
+  text-shadow: 0px 0px 3px #c79f00;
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #011140;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+span.submit.actions input.button {
+  display: none;
+}
+
+#greeting img.icon {
+  display: none;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  background: #011140;
+  box-shadow: 0px 0px 15px #ffe270;
+  color: #ffe270 !important;
+  border: 1px solid #011140;
+}
+
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #011140 !important;
+  border: none;
+  box-shadow: 0px 0px 15px #ffe270;
+  color: #ffe270;
+  display: block;
+}
+
+#header #search .text {
+  width: 7em;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #ffe270;
+  box-shadow: 0px 0px 15px #ffe270 !important;
+  color: #070e1c;
+  border: none;
+}
+
+.splash .module h3 {
+  color: #ffe270;
+  border-bottom: 2px solid #ffe270;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: #ffe270;
+  box-shadow: 0px 0px 15px #ffe270;
+  color: #070e1c;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.splash .favorite li:nth-of-type(2n+2) a {
+  color: #ffe270;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  color: #ffe270;
+  background: #1c3b63;
+}
+
+#footer {
+  background-image: url("https://i.postimg.cc/yNf1BYX8/aero-glass.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffe270;
+  border-top: 3px solid #ffe270;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+#outer #footer a,
+#outer #footer a:link,
+#outer #footer a:visited,
+#outer #footer .actions a,
+#outer #footer ul.navigation.actions li a {
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #7fb3ff !important;
+  text-shadow: 0px 0px 5px #000 !important;
+  padding: 0 !important;
+  outline: none !important;
+  border-radius: 0 !important;
+}
+
+#outer #footer a:hover,
+#outer #footer a:focus,
+#outer #footer .actions a:hover,
+#outer #footer ul.navigation.actions li a:hover {
+  background: transparent !important;
+  color: #ffe270 !important;
+  text-decoration: underline !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+#outer #footer .heading {
+  color: #ffe270 !important;
+  text-shadow: 0px 0px 5px #000 !important;
+}
+
+#outer .actions a,
+#outer .actions a:link,
+#outer .actions a:visited,
+#outer .action,
+#outer .action:link,
+#outer .action:visited,
+#outer .actions input[type="submit"],
+#outer .actions input[type="button"],
+#outer .actions button,
+#outer input[type="submit"],
+#outer button,
+#outer .dropdown a.dropdown-toggle,
+#outer .dropdown:hover a.dropdown-toggle,
+#outer ul.navigation.actions li a {
+  background: #1c3b63 !important;
+  border: 1px solid #ffe270 !important;
+  color: #ffe270 !important;
+  box-shadow: 0px 0px 10px #ffe270 !important;
+  border-radius: 5px !important;
+  text-shadow: none !important;
+  outline: none !important;
+}
+
+#outer .actions a:hover,
+#outer .actions a:focus,
+#outer .actions a:active,
+#outer .action:hover,
+#outer .action:focus,
+#outer .action:active,
+#outer .actions input[type="submit"]:hover,
+#outer .actions input[type="submit"]:focus,
+#outer .actions input[type="submit"]:active,
+#outer input[type="submit"]:hover,
+#outer input[type="submit"]:focus,
+#outer input[type="submit"]:active,
+#outer .dropdown a.dropdown-toggle:hover,
+#outer .dropdown a.dropdown-toggle:focus,
+#outer .dropdown a.dropdown-toggle:active {
+  background: #ffe270 !important;
+  color: #070e1c !important;
+  border: 1px solid #ffe270 !important;
+  box-shadow: 0px 0px 15px #ffe270 !important;
+  outline: none !important;
+}
+
+.current,
+#dashboard .current {
+  background: #ffe270 !important;
+  color: #070e1c !important;
+  box-shadow: 0px 0px 15px #ffe270 !important;
+  border-radius: 5px;
+}
+
+#dashboard.own {
+  border-top: 5px solid #ffe270;
+  border-bottom: 5px solid #ffe270;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+#dashboard a:hover {
+  background: #ffe270;
+  color: #000 !important;
+}
+
+#dashboard a {
+  color: #ffe270;
+}
+
+dl.meta {
+  border: 1px solid #ffe270;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+.listbox .index {
+  background: #011140;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: #ffe270;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+form dl,
+fieldset,
+fieldset fieldset,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+input,
+select,
+select:focus,
+textarea,
+span.symbol.question,
+.own {
+  background: #011140 !important;
+  color: #ffe270 !important;
+  border: 1px solid #ffe270;
+  box-shadow: 0px 0px 10px #ffe270;
+}
+
+.autocomplete li.added,
+.post .meta dd ul li.added,
+label,
+label.required {
+  color: #ffe270;
+}
+
+span.delete {
+  background: ffe270;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+span.delete a {
+  color: #f9d71c !important;
+  font-weight: bold;
+}
+
+.ui-sortable li,
+.dynamic form,
+div.dynamic {
+  background: #011140;
+  border: 1px solid #ffe270;
+}
+
+.dropdown {
+  position: relative;
+  z-index: 999999 !important;
+}
+
+.dropdown .menu,
+.dropdown .dropdown-menu,
+#greeting .menu,
+#header .dropdown .menu,
+.autocomplete div.dropdown ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #011140;
+  box-shadow: 0px 0px 15px #ffe270;
+  display: none;
+  z-index: 1000000 !important;
+}
+
+.dropdown .menu a,
+.dropdown .dropdown-menu a,
+#greeting .menu a,
+#header .dropdown .menu a,
+.autocomplete div.dropdown ul li {
+  position: relative;
+  z-index: 1000001 !important;
+}
+
+.dropdown:hover .menu,
+.dropdown:hover .dropdown-menu,
+#greeting:hover .menu,
+#header .dropdown:hover .menu {
+  display: block;
+}
+
+.filters .menu {
+  z-index: 2000000 !important;
+  position: relative;
+}
+
+fieldset,
+.toggled form,
+.dynamic form {
+  position: relative;
+  overflow: visible !important;
+}
+
+#header .dropdown .menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #011140;
+  box-shadow: 0px 0px 15px #ffe270;
+  display: none;
+  z-index: 1000000 !important;
+}
+
+#header .dropdown .menu a {
+  position: relative;
+  z-index: 1000001 !important;
+}
+
+#header .dropdown:hover .menu {
+  display: block;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #ffe270;
+  color: #f9d71c;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+li.blurb {
+  border: 1px solid #ffe270;
+  box-shadow: 0px 0px 12px #ffe270;
+}
+
+.draft {
+  background: #011140;
+  color: #ffe270;
+  border: 2px dashed #ffe270;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+.draft .wrapper {
+  background: #011140;
+  border: 1px solid #ffe270;
+}
+
+#header h2 {
+  background: #ffe270 !important;
+  color: #f9d71c;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+#stat_chart svg {
+  filter: sepia(100%) saturate(300%) hue-rotate(5deg) brightness(120%);
+}
+
+.reading h4.viewed,
+dl.index dd,
+table,
+th,
+dt.child {
+  background: #011140;
+}
+
+#modal,
+span.replied {
+  background: #011140;
+  color: #ffe270;
+  border: 2px solid #ffe270;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+h4.heading.byline {
+  background: #ffe270;
+  color: #1f3a70;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+li.comment {
+  border: 1px solid #ffe270;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid #ffe270;
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+.thread .even {
+  background: #1c3b63;
+}
+
+.unread {
+  border: 5px dashed #ffe270 !important;
+}
+
+span.unread {
+  background: #ffe270;
+  color: #f9d71c;
+}
+
+span.indicator::before {
+  box-shadow: 0px 0px 15px #ffe270;
+}
+
+.warnings .tag,
+.work .warning a.tag {
+  background: #ffe270;
+  color: #070e1c;
+  box-shadow: 0px 0px 10px #ffe270;
+  border: 1px solid #ffe270;
+  border-radius: 5px;
+}
+
+.relationships .tag,
+.work .relationships a.tag {
+  background: none;
+  color: #ffe270 !important;
+  text-shadow: 0px 0px 15px #ffe270;
+}
+
+.filters .expander {
+  background: url("https://64.media.tumblr.com/3c89981f933f9f57157d6dcec6fd85a7/94c6737c6db9ad60-e5/s1280x1920/f7557e617a5439c506721bd326580a0cb4c1f8d8.png") left center no-repeat;
+  color: #ffe270 !important;
+  font-weight: bold;
+}
+
+.filters .expanded .expander {
+  background: url("https://64.media.tumblr.com/dab095a2fd9387bc1e0c57747ba6b13f/94c6737c6db9ad60-ad/s1280x1920/c1a4e14e0565cdcac5d3e20bebac3ab440f2d607.png") left center no-repeat;
+}
+
+.blurb h4 a:visited {
+  color: #f9d71c !important;
+}
+
+#main a:hover {
+  background: #ffe270;
+  color: #000;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #011140;
+}
+
+p.kudos {
+  background: none !important;
+  position: relative;
+  padding-left: 70px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+p.kudos::before {
+  content: "🌟";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 45px;
+  text-shadow: 0 0 15px #f9d71c;
+}
+
+fieldset,
+.toggled form,
+.dynamic form {
+  background-image: url("https://i.postimg.cc/kXZFBM1R/Van-Gogh-Starry-Night-Google-Art-Project.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: 90% center !important;
+  background-color: #011140 !important;
+  color: #ffe270 !important;
+  border: 1px solid #ffe270 !important;
+  box-shadow: none !important;
+  text-shadow: 0 0 5px #000;
+}
+
+

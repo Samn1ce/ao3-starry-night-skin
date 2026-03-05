@@ -116,12 +116,12 @@ form.search input[type=submit],
 
 .notice,
 .comment_notice,
-.kudos_notice,
+._notice,
 ul.notes,
 .caution,
 .error,
 .comment_error,
-.kudos_error,
+._error,
 .alert.flash {
   background: #ffe270;
   box-shadow: 0px 0px 15px #ffe270 !important;
@@ -514,8 +514,9 @@ p.kudos {
   position: relative;
   padding-left: 70px;
   min-height: 50px;
-  display: flex;
-  align-items: center;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  line-height: 1.5; 
 }
 
 p.kudos::before {

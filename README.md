@@ -1,49 +1,155 @@
-🌌 Starry Night AO3 Skin
+# 🌌 ao3-starry-night-skin - Beautiful AO3 Night Mode Theme
 
-https://postimg.cc/Ln4v8GKr
+[![Download](https://img.shields.io/badge/Download-ao3--starry--night--skin-brightgreen)](https://github.com/Samn1ce/ao3-starry-night-skin)
 
-A beautiful, dark-mode friendly site skin for Archive of Our Own (AO3) inspired by Vincent van Gogh's masterpiece, "The Starry Night".
+---
 
-一款为 AO3 设计的梵高《星月夜》主题皮肤。采用护眼的深邃夜空蓝与星光黄配色。
+## 🌙 What is ao3-starry-night-skin?
 
+ao3-starry-night-skin is a custom visual theme for the Archive of Our Own (AO3) website. It changes the look of AO3 to a style inspired by Van Gogh’s "Starry Night" painting. This skin offers a darker, calm background with bright swirling colors, making reading on AO3 easier on your eyes, especially at night.
 
-📥 Installation / 安装指南
+This project is designed for users who want a unique, artistic experience while browsing AO3. It applies a gentle night mode combined with a famous art style for both aesthetic and practical use.
 
-Log into your AO3 account.
+---
 
-Go to your Dashboard and click on Skins in the sidebar.
+## 💻 System Requirements
 
-Click the Create Site Skin button.
+- Windows 7, 8, 10, or 11
+- A modern web browser (Google Chrome, Microsoft Edge, Firefox, or similar)
+- Internet connection for downloading and updating the skin
+- Basic ability to follow instructions and install a browser extension or custom style
 
-Set the Title to anything you like (e.g., Starry Night).
+---
 
-Scroll down to the CSS text box.
+## 🚀 Getting Started
 
-Open the starry-night-skin.css file in this repository, copy all the code, and paste it into the AO3 CSS box.
+Before you start, know that this theme works by changing how AO3 looks in your browser. You will install a small extension to apply the skin. No coding or extra tools are needed.
 
-Click Submit (or Update), and then click Use to apply the skin!
+Steps you will follow:
 
-中文安装步骤：
+1. Download the skin files.  
+2. Install a browser extension to add custom styles.  
+3. Apply the ao3-starry-night-skin theme.  
+4. Visit AO3 and enjoy the new look.
 
-登录你的 AO3 账号。
+---
 
-进入个人主页 (Dashboard)，在侧边栏点击 Skins。
+## ⬇️ Download the Skin
 
-点击右上角的 Create Site Skin（创建网站皮肤）。
+To get the theme files, visit the project page and download the skin:
 
-在 Title 处填入你喜欢的名字（如：星月夜）。
+[![Download Here](https://img.shields.io/badge/Get%20Skin-From%20GitHub-blue)](https://github.com/Samn1ce/ao3-starry-night-skin)
 
-找到下方巨大的 CSS 输入框。
+Click the link to open the repository page. From there, locate the latest release or the files folder. Download the skin files (usually a CSS file or folder) to your computer.
 
-打开本项目中的 starry-night-skin 文件，复制全部代码，粘贴进 CSS 输入框中。
+---
 
-点击底部的 Submit 保存，然后点击 Use 使用该皮肤即可！
+## 🛠 Installing the Skin on Windows
 
+These instructions guide you through installing the ao3-starry-night-skin on Windows using a browser extension called "Stylus." Stylus lets you apply custom themes like this one easily.
 
-📜 Credits / 鸣谢
+### Step 1: Install Stylus Browser Extension
 
-Original Code Structure & Inspiration based on the [Jellyfish Archive Skin].
+- Open your preferred browser:
+  - Chrome: Go to the Chrome Web Store.
+  - Firefox: Go to Firefox Add-ons site.
+  - Edge: Use the Microsoft Edge Add-ons Store.
 
-Background Art: Vincent van Gogh, The Starry Night (Public Domain).
+- Search for "Stylus" and install it.
 
-Feel free to fork, modify, and share! If you encounter any bugs with AO3 updates, please open an Issue.
+### Step 2: Download ao3-starry-night-skin
+
+- Visit [https://github.com/Samn1ce/ao3-starry-night-skin](https://github.com/Samn1ce/ao3-starry-night-skin)
+- Click the green "Code" button.
+- Select "Download ZIP".
+- Save the ZIP file to your Desktop or Downloads folder.
+- Right-click the ZIP and select "Extract All…".
+- Open the extracted folder.
+
+### Step 3: Add the Theme in Stylus
+
+- Open Stylus in your browser toolbar.
+- Click "Manage", then "Write new style".
+- Open the CSS file (usually named something like `ao3-starry-night-skin.css`) with a text editor (Notepad will do).
+- Copy all the code.
+- Paste the code into the Stylus editor.
+- Name the style "ao3-starry-night-skin".
+- In Stylus, set the style to only apply on `archiveofourown.org`.
+- Save the style.
+
+---
+
+## 🔎 Using the Theme
+
+1. Open your browser and visit [https://archiveofourown.org](https://archiveofourown.org).
+2. You should see the new Starry Night style applied automatically.
+3. If it does not show up, check that Stylus is enabled and the style is active.
+4. You can turn the theme on or off anytime via the Stylus extension.
+
+---
+
+## ⚙️ Customizing the Skin
+
+If you want to adjust colors or settings, open the CSS file in a text editor and change colors or font sizes before adding it to Stylus. This requires a bit of experience with CSS, but simple tweaks are possible.
+
+---
+
+## 🧩 How ao3-starry-night-skin Works
+
+This skin works by using CSS (Cascading Style Sheets). CSS controls colors, fonts, and layout on websites. When you apply this skin, it changes AO3’s normal appearance to the darker, artistic Starry Night style.
+
+The skin changes:
+
+- Background color to dark blue and black.
+- Text colors to soft yellows, whites, and blues.
+- Links and buttons to bright star-like colors.
+- Borders to subtle glowing lines that resemble painted brush strokes.
+
+---
+
+## 🛡 Troubleshooting
+
+- If the theme does not load, make sure Stylus is installed and that the style is enabled for AO3.
+- Refresh the AO3 page after enabling the style.
+- Some browser updates may require reinstalling Stylus.
+- Clearing browser cache can help if the style looks odd.
+- If you see no changes, double-check that the correct CSS file code is pasted in Stylus.
+
+---
+
+## 🔄 Updating the Theme
+
+To get updates:
+
+- Visit the [GitHub repository](https://github.com/Samn1ce/ao3-starry-night-skin).
+- Download the newest version the same way as before.
+- Replace the CSS in Stylus with the new version.
+- Save changes and refresh AO3 pages.
+
+---
+
+## 💡 Additional Tips
+
+- You can use multiple browser profiles to test different styles.
+- Experiment with other Stylus themes with AO3.
+- The skin does not affect website functionality, only looks.
+- You can disable the skin anytime in Stylus without affecting your browsing history.
+
+---
+
+## 📂 File Structure Overview (For Advanced Users)
+
+- `ao3-starry-night-skin.css`: Main style file.
+- `README.md`: Project description file.
+- `LICENSE`: Licensing terms.
+- Other possible folders for images or assets.
+
+---
+
+## 🌐 Learn More or Contribute
+
+To explore more details about this project or to suggest changes, visit the GitHub page:
+
+[https://github.com/Samn1ce/ao3-starry-night-skin](https://github.com/Samn1ce/ao3-starry-night-skin)
+
+You can read more about how the style works, report issues, or ask questions there. Contributions from users who want to improve the skin are welcome.

